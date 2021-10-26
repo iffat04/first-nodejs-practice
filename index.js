@@ -22,7 +22,7 @@ app.post('/users',(req,res)=>{
     //console.log('hitted',req.body);
     const user = req.body;
     user.id= users.length;
-    console.log(user);
+    //console.log(user);
     users.push(user);
     console.log(users);
     //show in ui -->front end
