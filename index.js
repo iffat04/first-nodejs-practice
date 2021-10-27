@@ -15,7 +15,7 @@ const users=[{id:1,name:"sabana",email:"sabaan@gmail.com"},
 {id:2,name:"purnima",email:"purnima@gmail.com"},
 {id:3,name:"saba",email:"san@gmail.com"},
 {id:4,name:"saana",email:"saaan@gmail.com"},
-{id:5,name:"suaammmm",email:"suaan@gmail.com"}]
+{id:5,name:"suammm",email:"suaan@gmail.com"}]
 
 //l252JyHQfYSK8PlK
 //dbUser1
