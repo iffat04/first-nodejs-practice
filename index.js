@@ -17,6 +17,18 @@ const users=[{id:1,name:"sabana",email:"sabaan@gmail.com"},
 {id:4,name:"saana",email:"saaan@gmail.com"},
 {id:5,name:"suaa",email:"suaan@gmail.com"}]
 
+//l252JyHQfYSK8PlK
+//dbUser1
+/*
+const { MongoClient } = require('mongodb');
+const uri = "mongodb+srv://dbUser1:l252JyHQfYSK8PlK@cluster0.luxos.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
+*/
 
 app.post('/users',(req,res)=>{
     //console.log('hitted',req.body);
